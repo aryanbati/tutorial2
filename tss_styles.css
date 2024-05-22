@@ -103,8 +103,21 @@ aside blockquote{
 
 aside{
 font-size: 0.8em;
+}
+/* psudeo elements*/
+
+aside blockquote::before{
+      content: open-quote;
+      font-size: 1.6em;
 
 }
+
+aside blockquote::after{
+      content: close-quote;
+      font-size: 1.6em;
+
+}
+
 
 
 
